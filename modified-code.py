@@ -11,7 +11,7 @@ for repos in repoList:
     repoName = repos.find("span", class_='repo')
     repoDescription = repos.find("p", class_="pinned-item-desc color-fg-muted text-small d-block mt-2 mb-3")
     try:
-        print("\nRepository:             ", repoName.text)
-        print("Description:", repoDescription.text.replace("\n",""), '\n\n')
+        print("\nRepository     :   ", repoName.text.strip())
+        print("Description    :   ", repoDescription.text.strip(), '\n\n')
     except AttributeError:
         continue    
