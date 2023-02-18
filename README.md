@@ -1,4 +1,5 @@
-# pythonProgram_WebScraping
+# Python Program
+# Web Scraping
 
 In this program, I focused on learning to integrate HTML into Python and use the scraped data in dictionaries and list type.
 
